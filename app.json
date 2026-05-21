@@ -3,6 +3,12 @@
     "name": "Shield Check",
     "slug": "shield-check",
     "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "746123b6-b64c-4b38-8530-bdef4ed56476"
+      }
+    },
     "android": {
       "package": "com.shieldcheck.mali",
       "permissions": [
