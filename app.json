@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Shield Check",
+    "slug": "shield-check",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.shieldcheck.mali",
+      "permissions": [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.INTERNET"
+      ]
+    }
+  }
+}
