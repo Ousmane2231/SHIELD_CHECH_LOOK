@@ -1,7 +1,41 @@
 {
+  "cli": {
+    "version": ">= 5.0.0"
+  },
   "build": {
     "preview": {
-      "android": { "buildType": "apk" }
+      "android": {
+        "buildType": "apk",
+        "releaseChannel": "preview"
+      },
+      "ios": {
+        "buildType": "simulator"
+      }
+    },
+    "preview2": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview3": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "releaseChannel": "production"
+      },
+      "ios": {}
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccount": "~/.android/service-account.json",
+        "track": "internal"
+      }
     }
   }
 }
