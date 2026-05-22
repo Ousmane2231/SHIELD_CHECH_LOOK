@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTabletMode": true
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.shieldcheck.mali"
     },
     "android": {
       "adaptiveIcon": {
